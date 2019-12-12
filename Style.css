@@ -1,12 +1,28 @@
 H1 { 
-    font-family:'Caveat', 'Great'; 
-    font-size: 113px;
-    color: burlywood;
+    font-family:'Oleo Script', 'cursive'; 
+    font-size: 100px;
+    color: rgb(41, 4, 4);
+    padding: 2.5%;
   }
 
 H2 {
     font-family:'Acme','Caveat', 'Great'; 
-    font-size: 25px;
-    color: bisque;
+    font-size: 50px;
+    color: burlywood;
 }
+body {
+  /* The image used */
+  background-image: url("IC.jpg");
+  /* half height */
+ 
+/* Center and scale the image nicely */
+  background-position: 30% -1220%;
+  background-repeat: no-repeat;
+  background-size: 500px;
+  
+}
+a { font-size: 40px;
+  color: rgb(41, 4, 4);
+  
 
+}
