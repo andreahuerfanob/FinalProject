@@ -1,0 +1,12 @@
+H1 { 
+    font-family:'Caveat', 'Great'; 
+    font-size: 113px;
+    color: burlywood;
+  }
+
+H2 {
+    font-family:'Acme','Caveat', 'Great'; 
+    font-size: 25px;
+    color: bisque;
+}
+
