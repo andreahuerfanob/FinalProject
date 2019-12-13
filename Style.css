@@ -1,28 +1,40 @@
-H1 { 
-    font-family:'Oleo Script', 'cursive'; 
-    font-size: 100px;
-    color: rgb(41, 4, 4);
-    padding: 2.5%;
-  }
+h1 {
+  font-family: "Oleo Script", "cursive";
+  font-size: 100px;
+  color: rgb(41, 4, 4);
+  padding: 2.5%;
+}
 
-H2 {
-    font-family:'Acme','Caveat', 'Great'; 
-    font-size: 50px;
-    color: burlywood;
+h2 {
+  font-family: "Acme", "Caveat", "Great";
+  font-size: 50px;
+  color: burlywood;
+  position: 400px;
 }
 body {
   /* The image used */
   background-image: url("IC.jpg");
   /* half height */
- 
-/* Center and scale the image nicely */
-  background-position: 30% -1220%;
+
+  /* Center and scale the image nicely */
+  background-position: 18% -2080%;
   background-repeat: no-repeat;
   background-size: 500px;
-  
+  top: -20%;
 }
-a { font-size: 40px;
+a {
+  font-size: 40px;
   color: rgb(41, 4, 4);
-  
+  position: relative;
+  right: -200px;
+  height: 65px;
+  top: 50px;
+}
 
+.form-control {
+  border: 3px solid brown;
+  position: relative;
+  top: 65px;
+  right: -1000px;
+  height: 70px;
 }
